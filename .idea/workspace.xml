@@ -4,19 +4,59 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c90933ff-fda9-4db8-9e42-2c7be6921947" name="Changes" comment="Init auth service">
+    <list default="true" id="c90933ff-fda9-4db8-9e42-2c7be6921947" name="Changes" comment="AuthService add models">
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_mysql_mysql_connector_j_8_0_33.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_oracle_database_jdbc_ojdbc8_21_9_0_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_jsonwebtoken_jjwt_0_9_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_devtools_3_1_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AuthService/src/main/java/pl/szawara/authservice/Repostitory/JpaUserSecurityService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AuthService/src/main/java/pl/szawara/authservice/Repostitory/UsersRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AuthService/src/main/java/pl/szawara/authservice/Users/Model/UserStatus.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AuthService/src/main/java/pl/szawara/authservice/Users/Security/JwtAuthFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AuthService/src/main/java/pl/szawara/authservice/Users/Security/JwtService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AuthService/src/main/java/pl/szawara/authservice/Users/Security/JwtServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AuthService/src/main/java/pl/szawara/authservice/Users/Security/SecurityConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AuthService/src/test/java/pl/szawara/authservice/Users/Security/JwtServiceImplTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AuthService/src/test/resources/application.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AuthService/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/AuthService/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AuthService/src/main/java/pl/szawara/authservice/Users/Model/Roles.java" beforeDir="false" afterPath="$PROJECT_DIR$/AuthService/src/main/java/pl/szawara/authservice/Users/Model/Roles.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AuthService/src/main/java/pl/szawara/authservice/Users/Model/Users.java" beforeDir="false" afterPath="$PROJECT_DIR$/AuthService/src/main/java/pl/szawara/authservice/Users/Model/Users.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AuthService/src/main/java/pl/szawara/authservice/Users/UserSeciurity.java" beforeDir="false" afterPath="$PROJECT_DIR$/AuthService/src/main/java/pl/szawara/authservice/Users/Model/UserSecurity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AuthService/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/AuthService/src/main/resources/application.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Enum" />
+        <option value="Interface" />
+        <option value="Class" />
+        <option value="JUnit5 Test Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="useMavenConfig" value="true" />
+      </MavenGeneralSettings>
+    </option>
   </component>
   <component name="ProjectId" id="2RzFB9nH7MDn6UqS7khbJAKSkY1" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -26,20 +66,88 @@
   </component>
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
+    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
+    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
+    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
+    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit5&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5&quot;: &quot;&quot;,
     &quot;jdk.selected.JAVA_MODULE&quot;: &quot;openjdk-20&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/Projekty/IotHouse/AuthService/src/test/resources&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;reference.idesettings.debugger.capture&quot;,
+    &quot;spring.configuration.checksum&quot;: &quot;f33a1d77b137336978f31723d552a078&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Projekty\IotHouse\AuthService\src\test\resources" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="pl.szawara.authservice.Users.Security" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.JwtServiceImplTest.generateToken">
+    <configuration name="JwtServiceImplTest.extractUserName" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="AuthService" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="pl.szawara.authservice.Users.Security.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="pl.szawara.authservice.Users.Security" />
+      <option name="MAIN_CLASS_NAME" value="pl.szawara.authservice.Users.Security.JwtServiceImplTest" />
+      <option name="METHOD_NAME" value="extractUserName" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="JwtServiceImplTest.generateToken" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="AuthService" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="pl.szawara.authservice.Users.Security.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="pl.szawara.authservice.Users.Security" />
+      <option name="MAIN_CLASS_NAME" value="pl.szawara.authservice.Users.Security.JwtServiceImplTest" />
+      <option name="METHOD_NAME" value="generateToken" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AuthServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="AuthService" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="pl.szawara.authservice.AuthServiceApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.JwtServiceImplTest.generateToken" />
+        <item itemvalue="JUnit.JwtServiceImplTest.extractUserName" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -50,6 +158,16 @@
       <updated>1688244866185</updated>
       <workItem from="1688244867465" duration="1082000" />
       <workItem from="1688248312067" duration="452000" />
+      <workItem from="1688248796105" duration="55000" />
+      <workItem from="1688288482168" duration="3136000" />
+      <workItem from="1688294686906" duration="44000" />
+      <workItem from="1688300813382" duration="9953000" />
+      <workItem from="1688579143782" duration="1259000" />
+      <workItem from="1688581024339" duration="1000" />
+      <workItem from="1688587355232" duration="2088000" />
+      <workItem from="1688665028953" duration="1386000" />
+      <workItem from="1689190791192" duration="699000" />
+      <workItem from="1689275884460" duration="2284000" />
     </task>
     <task id="LOCAL-00001" summary="Init auth service">
       <created>1688248761500</created>
@@ -58,7 +176,21 @@
       <option name="project" value="LOCAL" />
       <updated>1688248761500</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Init auth service">
+      <created>1688248841747</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1688248841747</updated>
+    </task>
+    <task id="LOCAL-00003" summary="AuthService add models">
+      <created>1688291574549</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1688291574549</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -69,7 +201,19 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="authservice" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
           </value>
         </entry>
       </map>
@@ -77,6 +221,15 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Init auth service" />
-    <option name="LAST_COMMIT_MESSAGE" value="Init auth service" />
+    <MESSAGE value="AuthService add models" />
+    <option name="LAST_COMMIT_MESSAGE" value="AuthService add models" />
+  </component>
+  <component name="XDebuggerManager">
+    <watches-manager>
+      <configuration name="JUnit">
+        <watch expression="getKey()" language="JAVA" />
+        <watch expression="jwtSigningKey" language="JAVA" />
+      </configuration>
+    </watches-manager>
   </component>
 </project>
