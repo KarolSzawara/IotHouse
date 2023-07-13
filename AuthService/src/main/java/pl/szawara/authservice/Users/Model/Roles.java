@@ -1,7 +1,14 @@
 package pl.szawara.authservice.Users.Model;
 
-public enum Roles {
+import org.springframework.security.core.GrantedAuthority;
+
+public enum Roles implements GrantedAuthority {
     Admin,
     User,
-    Guest
+    Guest;
+
+    @Override
+    public String getAuthority() {
+        return name();
+    }
 }

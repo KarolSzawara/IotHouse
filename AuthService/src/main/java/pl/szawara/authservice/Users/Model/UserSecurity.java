@@ -1,43 +1,50 @@
-package pl.szawara.authservice.Users;
+package pl.szawara.authservice.Users.Model;
 
 import org.springframework.security.core.GrantedAuthority;
 import org.springframework.security.core.userdetails.UserDetails;
 
+import java.util.Arrays;
 import java.util.Collection;
 
-public class UserSeciurity implements UserDetails {
+public class UserSecurity implements UserDetails {
+    private final Users user;
+
+    public UserSecurity(Users user) {
+        this.user = user;
+    }
+
     @Override
     public Collection<? extends GrantedAuthority> getAuthorities() {
-        return null;
+            return Arrays.asList(user.getRoles());
     }
 
     @Override
     public String getPassword() {
-        return null;
+        return user.getPassword();
     }
 
     @Override
     public String getUsername() {
-        return null;
+        return user.getEmail();
     }
 
     @Override
     public boolean isAccountNonExpired() {
-        return false;
+        return true;
     }
 
     @Override
     public boolean isAccountNonLocked() {
-        return false;
+        return user.getStatus().equals(UserStatus.Active);
     }
 
     @Override
     public boolean isCredentialsNonExpired() {
-        return false;
+        return true;
     }
 
     @Override
     public boolean isEnabled() {
-        return false;
+        return true;
     }
 }

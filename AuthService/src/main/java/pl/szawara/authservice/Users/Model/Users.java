@@ -7,6 +7,7 @@ import lombok.*;
 @Setter
 @ToString
 @RequiredArgsConstructor
+@AllArgsConstructor
 @EqualsAndHashCode
 @Entity(name = "Users")
 @Table(name = "users",uniqueConstraints = @UniqueConstraint(name = "email_unique",columnNames = "email"))
@@ -31,4 +32,7 @@ public class Users {
     @ToString.Exclude
     @Column(name = "password",nullable = false,columnDefinition = "text")
     private String password;
+    @Enumerated
+    @Column
+    private UserStatus status;
 }
