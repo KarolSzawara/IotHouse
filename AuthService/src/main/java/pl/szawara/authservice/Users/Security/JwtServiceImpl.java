@@ -33,7 +33,7 @@ public class JwtServiceImpl implements JwtService{
 
 
     @Override
-    public boolean isTokenValid(String token, UserDetails userSecurity) {
+    public boolean isTokenValid(String token) {
         return extractClaim(token,Claims::getExpiration).before(new Date());
     }
 
