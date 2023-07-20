@@ -7,10 +7,7 @@
     <list default="true" id="c90933ff-fda9-4db8-9e42-2c7be6921947" name="Changes" comment="gitignore">
       <change afterPath="$PROJECT_DIR$/AuthService/src/test/resources/application.properties" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/LedService/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AuthService/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/AuthService/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/AuthService/src/main/resources/application.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LedService/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/LedService/.gitignore" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,7 +30,7 @@
         <entry key="$PROJECT_DIR$" value="master" />
       </map>
     </option>
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/LedService" />
   </component>
   <component name="GitHubPullRequestSearchHistory">{
   &quot;lastFilter&quot;: {
@@ -205,11 +202,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.JwtServiceImplTest.getRole" />
-        <item itemvalue="JUnit.JwtServiceImplTest" />
         <item itemvalue="JUnit.JwtServiceImplTest.isTokenValid" />
-        <item itemvalue="JUnit.JwtServiceImplTest.extractUserName" />
+        <item itemvalue="JUnit.JwtServiceImplTest.getRole" />
         <item itemvalue="JUnit.JwtServiceImplTest.generateToken" />
+        <item itemvalue="JUnit.JwtServiceImplTest.extractUserName" />
+        <item itemvalue="JUnit.JwtServiceImplTest" />
       </list>
     </recent_temporary>
   </component>
