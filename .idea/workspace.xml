@@ -4,10 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c90933ff-fda9-4db8-9e42-2c7be6921947" name="Changes" comment="gitignore">
+    <list default="true" id="c90933ff-fda9-4db8-9e42-2c7be6921947" name="Changes" comment="Workspace">
       <change afterPath="$PROJECT_DIR$/AuthService/src/test/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LedService/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/AuthService/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LedService/HELP.md" beforeDir="false" afterPath="$PROJECT_DIR$/LedService/HELP.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LedService/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/LedService/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LedService/src/main/java/pl/szawara/ledservice/LedServiceApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/LedService/src/main/java/pl/szawara/ledservice/LedServiceApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LedService/src/test/java/pl/szawara/ledservice/LedServiceApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/LedService/src/test/java/pl/szawara/ledservice/LedServiceApplicationTests.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -280,7 +284,14 @@
       <option name="project" value="LOCAL" />
       <updated>1689802134617</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Workspace">
+      <created>1689889270323</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1689889270323</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -297,7 +308,7 @@
                   <entry key="branch">
                     <value>
                       <list>
-                        <option value="authservice" />
+                        <option value="master" />
                       </list>
                     </value>
                   </entry>
@@ -315,7 +326,8 @@
     <MESSAGE value="Generate token unit test" />
     <MESSAGE value="Add controller and new service" />
     <MESSAGE value="gitignore" />
-    <option name="LAST_COMMIT_MESSAGE" value="gitignore" />
+    <MESSAGE value="Workspace" />
+    <option name="LAST_COMMIT_MESSAGE" value="Workspace" />
   </component>
   <component name="XDebuggerManager">
     <watches-manager>
