@@ -4,32 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c90933ff-fda9-4db8-9e42-2c7be6921947" name="Changes" comment="Generate token unit test">
-      <change afterPath="$PROJECT_DIR$/AuthService/src/main/java/pl/szawara/authservice/Users/Model/AuthenticationRequest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AuthService/src/main/java/pl/szawara/authservice/Users/Security/AuthController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AuthService/src/main/java/pl/szawara/authservice/Users/Security/AuthInterface.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AuthService/src/main/java/pl/szawara/authservice/Users/Security/AuthService.java" afterDir="false" />
+    <list default="true" id="c90933ff-fda9-4db8-9e42-2c7be6921947" name="Changes" comment="gitignore">
       <change afterPath="$PROJECT_DIR$/AuthService/src/test/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LedService/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LedService/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LedService/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LedService/mvnw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LedService/mvnw.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LedService/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LedService/src/main/java/com/example/ledservice/LedServiceApplication.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/LedService/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LedService/src/test/java/com/example/ledservice/LedServiceApplicationTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AuthService/src/main/java/pl/szawara/authservice/Users/Security/JwtAuthFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/AuthService/src/main/java/pl/szawara/authservice/Users/Security/JwtAuthFilter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AuthService/src/main/java/pl/szawara/authservice/Users/Security/JwtService.java" beforeDir="false" afterPath="$PROJECT_DIR$/AuthService/src/main/java/pl/szawara/authservice/Users/Security/JwtService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AuthService/src/main/java/pl/szawara/authservice/Users/Security/JwtServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/AuthService/src/main/java/pl/szawara/authservice/Users/Security/JwtServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AuthService/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/AuthService/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AuthService/src/test/java/pl/szawara/authservice/Users/Security/JwtServiceImplTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/AuthService/src/test/java/pl/szawara/authservice/Users/Security/JwtServiceImplTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AuthService/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/AuthService/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AuthService/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LedService/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/LedService/.gitignore" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -101,6 +82,7 @@
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
     &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
     &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
     &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
@@ -255,7 +237,9 @@
       <workItem from="1689520367426" duration="7762000" />
       <workItem from="1689609725515" duration="918000" />
       <workItem from="1689712362380" duration="24000" />
-      <workItem from="1689792095560" duration="2106000" />
+      <workItem from="1689792095560" duration="2391000" />
+      <workItem from="1689802169788" duration="241000" />
+      <workItem from="1689873228488" duration="621000" />
     </task>
     <task id="LOCAL-00001" summary="Init auth service">
       <created>1688248761500</created>
@@ -285,7 +269,21 @@
       <option name="project" value="LOCAL" />
       <updated>1689278484432</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Add controller and new service">
+      <created>1689801888294</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1689801888294</updated>
+    </task>
+    <task id="LOCAL-00006" summary="gitignore">
+      <created>1689802134617</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1689802134617</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -318,7 +316,9 @@
     <MESSAGE value="Init auth service" />
     <MESSAGE value="AuthService add models" />
     <MESSAGE value="Generate token unit test" />
-    <option name="LAST_COMMIT_MESSAGE" value="Generate token unit test" />
+    <MESSAGE value="Add controller and new service" />
+    <MESSAGE value="gitignore" />
+    <option name="LAST_COMMIT_MESSAGE" value="gitignore" />
   </component>
   <component name="XDebuggerManager">
     <watches-manager>
