@@ -1,0 +1,35 @@
+.login-side{
+    margin-top: 10%;
+    width: 30%;
+    margin-left: auto;
+    margin-right: auto;
+    height: auto;
+    margin-bottom: 15%;
+}
+.login-card{
+   
+    flex-direction: column;
+    box-sizing: border-box;
+    display: flex;
+    place-content:center space-around;
+    align-items: center;
+}
+.button-content{
+    padding: 15px;
+    width: 35%;
+}
+.button-login{
+    width: 100%;
+    margin-bottom: 10%;
+}
+.failure-info {
+    background-color: red;
+    font-size: normal;
+    color: white;
+}
+@media screen and (max-width: 800px){
+    .login-side{
+        width: 80%;
+    }
+    
+}

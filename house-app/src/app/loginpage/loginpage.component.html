@@ -1,0 +1,33 @@
+<mat-card class="login-side" >
+    <div class="login-card" >
+    <mat-card-title style="margin-bottom:4%">Witaj</mat-card-title>
+    <form [formGroup]="loginForm">
+    <mat-card-content style="height: 11vh;">
+        <p style="font-weight: bold; font-size:larger">E-mail</p>
+        <mat-form-field appearance="outline">
+            
+            <mat-label>E-mail</mat-label>
+            <input matInput type="text" id="loginEmail" matInput placeholder="Email" formControlName="loginEmail">
+            <mat-error *ngIf="loginForm?.get('loginEmail')?.errors?.['required']">Pole jest puste</mat-error>
+            <mat-error *ngIf="loginForm?.get('loginEmail')?.errors?.['pattern']">Niepoprawny email,przykład example@example.pl</mat-error>
+          </mat-form-field>
+        
+    </mat-card-content>
+    <mat-card-content style="height: 9vh;">
+        <p style="font-weight: bold; font-size:larger">Hasło</p>
+        <mat-form-field appearance="outline">
+            <mat-label>Hasło</mat-label>
+            <input matInput type="password" id="loginPassword" matInput placeholder="Hasło" formControlName="loginPassword">
+            <mat-error *ngIf="loginForm?.get('loginPassword')?.errors?.['required']">Pole jest puste</mat-error>
+           
+          </mat-form-field>
+    </mat-card-content>
+</form>
+    <mat-card-content class="button-content">
+        <button mat-raised-button color="primary" class="button-login" (click)="loginUser()">Zaloguj</button>
+        <mat-card class="failure-info" *ngIf="errorMessage">
+            {{errorMessage}}
+        </mat-card>
+    </mat-card-content>
+</div>
+</mat-card> 

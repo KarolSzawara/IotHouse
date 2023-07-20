@@ -2,6 +2,7 @@ package pl.szawara.authservice.Users.Security;
 
 import io.jsonwebtoken.Claims;
 import io.jsonwebtoken.Jwts;
+import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.extension.ExtendWith;
 import org.mockito.InjectMocks;
@@ -25,34 +26,34 @@ import static org.mockito.Mockito.when;
 
 @ExtendWith(MockitoExtension.class)
 class JwtServiceImplTest {
-    @Mock
-    UserSecurity userSecurity;
+
     @InjectMocks
     JwtServiceImpl jwtService;
+    String token;
+    UserSecurity userSecurity;
+
+    @BeforeEach
+    void init(){
+        ReflectionTestUtils.setField(jwtService, "jwtSigningKey", "newKey");
+        userSecurity=new UserSecurity(new Users(1l,"a@a.pl",Roles.User,"Random pass", UserStatus.Active));
+        token=jwtService.generateToken(userSecurity);
+    }
     @Test
     void extractUserName() {
 
-    }
 
-    @Test
-    void generateToken() {
-        ReflectionTestUtils.setField(jwtService, "jwtSigningKey", "newKey");
-        var username = "testUser";
-        var user=new UserSecurity(new Users(1l,"a@a.pl",Roles.User,"Random pass", UserStatus.Active));
-        var token=jwtService.generateToken(user);
 
-        // Act
         var result = Jwts.parser().setSigningKey("newKey").parseClaimsJws(token).getBody();
 
-        // Assert
-        assertEquals(result.getSubject(),user.getUsername());
+        assertEquals(result.getSubject(),userSecurity.getUsername());
     }
+
+
 
     @Test
     void isTokenValid() {
+        assertEquals(false,jwtService.isTokenValid(token));
     }
 
-    @Test
-    void getRole() {
-    }
+
 }
