@@ -4,13 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c90933ff-fda9-4db8-9e42-2c7be6921947" name="Changes" comment="gitignore">
+    <list default="true" id="c90933ff-fda9-4db8-9e42-2c7be6921947" name="Changes" comment="Angular app init">
       <change afterPath="$PROJECT_DIR$/AuthService/src/test/resources/application.properties" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/LedService/src/main/resources/application.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AuthService/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/AuthService/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/AuthService/src/main/resources/application.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LedService/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/LedService/.gitignore" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -300,7 +298,7 @@
                   <entry key="branch">
                     <value>
                       <list>
-                        <option value="authservice" />
+                        <option value="origin/authservice" />
                       </list>
                     </value>
                   </entry>
